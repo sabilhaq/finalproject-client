@@ -1,7 +1,6 @@
 import './Login.scss';
 import illustration from '../undraw_programming_re_kg9v.svg';
 import logo from '../logo.png';
-// import illustration from '../illustration.png'
 
 export default function Login() {
   return (
@@ -9,7 +8,6 @@ export default function Login() {
       <div className="Container">
         <div className="IllustrationContainer">
           <img className="Logo" src={logo} alt="" srcSet="" />
-          {/* <img src={logo} alt="" srcSet="" /> */}
           <img className="Illustration" src={illustration} alt="" srcSet="" />
           <p className="Caption">Start for free and get attractive offers.</p>
         </div>
